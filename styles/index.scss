@@ -135,14 +135,15 @@ footer{
 
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:1000px){
 
     .layout_main{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
-        max-height: 100vh;
+        justify-content: center;
+        min-height: 100vh;
     }
 
     .main_content{
@@ -156,7 +157,17 @@ footer{
     
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:400px) {
+    .main_heading{color: coral;
+    }    
 
-    
+}
+
+@media screen and (max-width:400px) {
+
+    header{
+        .nav_list{
+        display: none;
+        }
+    }
 }
